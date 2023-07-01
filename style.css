@@ -1,57 +1,123 @@
 *:focus {
   outline: none;
 }
-.main{
+
+.main {
   width: 100%;
 }
-.task-bar{
+
+.task-bar {
   background-color: #daac00;
   display: flex;
   align-items: center;
-  padding: 33px 40px;
-  justify-content: space-between;
+  padding: 33px 140px;
+  gap: 73px;
 }
-.logo{
+
+.logo {
   width: 212px;
 
 }
-.logo .img-logo img {
+
+.logo img {
   width: 100%;
 }
-.navigation{
+
+.navigation {
   background-color: #daac00;
 
 }
-.navigation ul{
+
+.navigation ul {
   display: flex;
   list-style: none;
   gap: 50px;
+  padding: 0;
 }
-.navigation ul li a{
+
+.navigation ul li a {
   color: white;
   text-decoration: none;
   font-size: 24px;
 }
+
 .search .input {
   display: flex;
-
 }
-.search .input input{
+
+.search .input input {
   font-size: 14px;
   border: none;
-    color: white;
-    padding: 3px 5px;
-    background: #fcc302;
+  color: white;
+  padding: 3px 5px;
+  background: #fcc302;
+  width: 203px;
 }
 
-.search .input input::placeholder{
-    color: white;
+.search .input input::placeholder {
+  color: white;
 }
 
-.search .input button{
+.search .input button {
   background-color: #00bec9;
   border: none;
+  width: 71px;
 }
-.search .input button i{
+
+.search .input button i {
   padding: 9px;
+}
+
+.element-1 {
+  background: #fcc302;
+  padding: 20px 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.element-1 .title p {
+  font-size: 66.667px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.element-1 .desc p {
+  font-size: 29px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.list-btn {
+  display: flex;
+  gap: 35px;
+}
+
+.list-btn .button {
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: white;
+  padding: 10px;
+  font-size: 21px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.list-btn .button.active {
+  background-color: #00bec9;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(0, 190, 201);
+}
+
+.element-1 img {
+  width: 419px;
 }
