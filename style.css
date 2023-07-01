@@ -1,0 +1,177 @@
+.background {
+  background-color: #fcc302;
+  height: 900px;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+}
+
+.task-bar {
+  background-color: #daac00;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 121px;
+}
+
+#image-1 {
+  width: 212px;
+  height: 56px;
+  position: absolute;
+  left: 200px;
+  /* Giá trị X */
+  top: 33px;
+  /* Giá trị Y */
+}
+
+ul {
+  list-style: none;
+  /* Loại bỏ ký hiệu danh sách */
+  display: flex;
+  /* Sử dụng flexbox */
+  justify-content: space-evenly;
+  /* Căn chữa ngang và cách đều */
+  margin: 49px 488px 48px 428px;
+}
+
+li a {
+  margin-right: 10px;
+  /* Khoảng cách giữa các từ */
+  display: inline;
+  /* Hiển thị các mục cùng hàng */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20pt;
+  /* Kích thước chữ */
+  font-weight: 100;
+  color: white;
+  /* Màu chữ */
+
+  text-decoration: none;
+  /* Bỏ gạch chân */
+}
+
+.search-container {
+  position: absolute;
+  border-radius: 1%;
+  color: red;
+  width: 274px;
+  height: 51px;
+  top: 5px;
+  right: 100px;
+  border-color: #fcc302;
+
+}
+
+.search-container input[type="text"] {
+  position: relative;
+  display: inline;
+  border-color: #fcc302;
+  background-color: #fcc302;
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  top: 35px;
+  right: 100px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.search-container button[type="submit"] {
+  position: relative;
+  color: White;
+  display: inline;
+  /* Hiển thị các mục cùng hàng */
+  background-color: #00bec9;
+  border-radius: 4%;
+  border-color: #00bec9;
+  width: 60px;
+  height: 45px;
+  right: 104px;
+  top: 30px;
+
+}
+
+#image-2 {
+  width: 419px;
+  height: 604px;
+  position: absolute;
+  right: 290px;
+  top: 209px;
+  /* Giá trị Y */
+  margin-bottom: 87px;
+  /* Khoảng cách từ phía dưới */
+}
+
+h1 {
+  text-transform: uppercase;
+  /* chữ hoa*/
+  color: white;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40pt;
+  width: 643px;
+  height: 134px;
+  position: absolute;
+  left: 200px;
+  /* Giá trị X */
+  bottom: 453px;
+}
+
+p {
+  /* Các thuộc tính CSS khác cho định dạng đoạn văn bản */
+  color: white;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  width: 643px;
+  height: 134px;
+  position: absolute;
+  left: 200px;
+  /* Giá trị X */
+  top: 400px;
+  /* Giá trị Y */
+}
+
+.button1 {
+  background-color: #00bec9;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width: 182px;
+  height: 69px;
+  position: absolute;
+  left: 200px;
+  /* Giá trị X */
+  bottom: 192px
+}
+
+.button2 {
+  background-color: #fcc302;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid white;
+  /* Màu đen, độ dày 2px */
+  border-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width: 182px;
+  height: 69px;
+  position: absolute;
+  left: 460px;
+  /* Giá trị X */
+  bottom: 192px
+}
+
+button i {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  color: white;
+  left: 10px;
+  transform: translateY(-50%);
+}
